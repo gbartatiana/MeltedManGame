@@ -1,0 +1,105 @@
+#Principal
+{
+    width:1000px;
+    margin:auto;
+    margin-top: 25px; 
+}
+
+header
+{
+    height: 50px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:20px;
+    background-image:-webkit-linear-gradient(top, rgb(131, 249, 239) 0%, rgb(8, 173, 188) 100%);
+    background-image:-moz-linear-gradient(top, rgb(131, 249, 239) 0%, rgb(8, 173, 188) 100%);
+    background-image:-o-linear-gradient(top, rgb(131, 249, 239) 0%, rgb(8, 173, 188) 100%);
+    background-color:rgb(131, 249, 239);
+    -moz-box-shadow:10px 10px 25px grey;
+    -webkit-box-shadow:10px 10px 25px grey;
+    box-shadow:10px 10px 25px grey;
+}
+
+body
+{
+    background-image:url(Images/fond_jaune.png);
+}
+
+#imageResult article
+{
+    margin-top: 50px;
+    display: inline-block;
+    width: 20%;
+    background-color: aquamarine;
+}
+
+#imageResult aside
+{
+    margin-top: 50px;
+    margin-left: 75px;
+    display:inline-block; 
+    vertical-align:top; 
+    width:65%;  
+}
+
+#Titre
+{ 
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: navy;
+    text-shadow:5px 5px 15px red;
+}
+
+#result
+{
+    font-size: 40px;
+}
+
+#nbrLetters
+{
+    font-size: x-large;
+}
+
+#letter
+{
+    width: 20px;
+}
+
+#used
+{
+    font-size: 25px;
+}
+
+#message
+{
+    font-size: 25px;
+}
+
+#letter
+{
+    font-size: 25px;
+}
+
+label
+{
+    font-size: 20px;
+    color: darkblue;
+}
+
+p
+{
+    font-size: 20px;
+    color: navy;
+}
+
+h2
+{
+    color: darkblue;
+}
+
+li
+{
+    color: navy;
+    font-size: 20px;
+}

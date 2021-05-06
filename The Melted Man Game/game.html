@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Melted Man Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src = "script.js"></script>
+</head>
+<body onload="newGame()">
+    <div id="Principal">
+        <header>
+            <h1 id="Titre"><b><i>The Melted Man Game</i></b></h1>
+        </header>
+        <section id="imageResult">
+            <article>
+                <img id="image">
+            </article>
+            <aside>
+                <p id="nbrOfLetters"></p>
+                <label for="letter">ADIVINHE UMA LETRA:</label>
+                <input type="text" id="letter" autofocus maxlength="1">
+                <input id="searchLetter" type="button" value="Search" onclick="verifySearchedLetter()">
+                <p id="result"></p>
+                <p id="used"></p>
+                <p id="message"></p>
+                <input id="newgame" type="button" value="New Game" onclick="newGame()">
+            </aside>
+        </section>
+            
+    </div>
+</body>
+</html>
